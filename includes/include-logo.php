@@ -61,9 +61,7 @@ echo '<div class="logo'. $logo_class .'">';
 			
 		}
 	}
-	
-	
-	
+
 	
 	/*
 	 * Source

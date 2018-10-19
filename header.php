@@ -17,8 +17,9 @@
 
 <!-- head -->
 <head>
-<meta property="og:image" content="<?php if(is_front_page()){echo home_url()."/wp-content/uploads/2018/06/toplogo.png";}elseif(has_post_thumbnail()){ echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) );}else{echo home_url()."/wp-content/uploads/2018/06/toplogo.png";} ?>" />
+<meta property="og:image" content="<?php if(is_front_page()){echo home_url()."/ninjamerchant-logo-design_vf/";}elseif(has_post_thumbnail()){ echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) );}else{echo home_url()."/wp-content/uploads/2018/06/toplogo.png";} ?>" />
      <meta property="og:image:type" content="image/jpeg" />
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <!-- meta -->
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
